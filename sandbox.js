@@ -25,5 +25,20 @@ window.onload = function(){
         }
     }
 
+    var equal = function() {
+        let b = display.value;
+        if(b){
+            try{
+                display.value = eval(b);
+            }
+            catch{
+                alert("Error");
+            }
+        }
+    }
+    
+    function clean(){
+        display.value = "";
+    }
 
 }
