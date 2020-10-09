@@ -1,0 +1,63 @@
+body{
+    margin: 0; 
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+#container{
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    padding: 2.5%;
+    font-family: inherit;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 95%;
+    height: 70%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+table:hover{
+    cursor: pointer;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+td{
+    padding: 0.3em;
+}
+
+tr:first-of-type{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+tr{
+    background-color: gainsboro;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
