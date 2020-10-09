@@ -25,6 +25,7 @@ window.onload = function(){
         }
     }
 
+    // Using this functions to evaluate the value in the input; if an error, alerting the error
     var equal = function() {
         let b = display.value;
         if(b){
@@ -37,6 +38,7 @@ window.onload = function(){
         }
     }
     
+    // Clearing the form after clicking on C button
     function clean(){
         display.value = "";
     }
